@@ -17,6 +17,7 @@ const Dishes = () => {
     <div>
       {data.map((item) => (
         <Dish 
+        serving={item.servingSize}
         title={item.title}
         key={item.id}
         calories={item.nutrition.calories}
