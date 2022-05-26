@@ -3,13 +3,13 @@ import React from "react";
 const Dish = (props) => {
   return (
     <div>
-      <h2>{props.title}</h2>
+      <h2 className="capitalize">{props.title}</h2>
       <div className="info-card">
-      <p>Serving portion: {props.serving}g</p>
-      <p>Calories: {props.calories}g</p>
-      <p>Carbohydrates: {props.carbs}g</p>
-      <p>Fats: {props.fats}g</p>
-      <p>Protein: {props.protein}g</p>
+      <p>Serving portion: <b>{props.serving}g</b></p>
+      <p>Calories: <b>{props.calories}g</b></p>
+      <p>Carbohydrates: <b>{props.carbs}g</b></p>
+      <p>Fats: <b>{props.fats}g</b></p>
+      <p>Protein: <b>{props.protein}g</b></p>
       </div>
     </div>
   );
