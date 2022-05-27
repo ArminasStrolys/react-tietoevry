@@ -8,10 +8,10 @@
         "calories" : 89.4,
         "carbs" : 23.2,
         "protein" : 1.1,
-        "fats" : 0.3,
-        "summerSeason" : true,
-        "winterSeason" : true
-    }
+        "fats" : 0.3
+    },
+    "summerSeason" : true,
+    "winterSeason" : true
   },
   {
     "id": 2,
@@ -22,9 +22,9 @@
         "calories" : 261.6,
         "carbs" : 50.2,
         "protein" : 8.8,
-        "fats" : 3.4,
-        "summerSeason" : true,
-        "winterSeason" : true
-    }
+        "fats" : 3.4
+    },
+    "summerSeason" : true,
+    "winterSeason" : true
   }
 ]
