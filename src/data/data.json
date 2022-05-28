@@ -10,8 +10,6 @@
         "protein" : 1.1,
         "fats" : 0.3
     },
-    "summerSeason" : true,
-    "winterSeason" : true,
     "isBreakfast" : "",
     "isDinner" : "",
     "isSupper" : "",
@@ -28,8 +26,6 @@
         "protein" : 8.8,
         "fats" : 3.4
     },
-    "summerSeason" : true,
-    "winterSeason" : true,
     "isBreakfast" : "",
     "isDinner" : "",
     "isSupper" : "",
