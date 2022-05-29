@@ -3,34 +3,105 @@
     "id": 1,
     "title": "banana",
     "servingSize": 100,
-    "nutrition": 
-    {
-        "calories" : 89.4,
-        "carbs" : 23.2,
-        "protein" : 1.1,
-        "fats" : 0.3
+    "nutrition": {
+      "calories": 89.4,
+      "carbs": 23.2,
+      "protein": 1.1,
+      "fats": 0.3
     },
-    "isBreakfast" : "",
-    "isDinner" : "",
-    "isSupper" : "",
-    "isSnack" : "true"
+    "isBreakfast": "",
+    "isDinner": "",
+    "isSupper": "",
+    "isSnack": "true"
   },
   {
     "id": 2,
     "title": "bread",
     "servingSize": 100,
-    "nutrition": 
-    {
-        "calories" : 261.6,
-        "carbs" : 50.2,
-        "protein" : 8.8,
-        "fats" : 3.4
+    "nutrition": {
+      "calories": 261.6,
+      "carbs": 50.2,
+      "protein": 8.8,
+      "fats": 3.4
     },
-    "isBreakfast" : "",
-    "isDinner" : "",
-    "isSupper" : "",
-    "isSnack" : "true"
+    "isBreakfast": "",
+    "isDinner": "",
+    "isSupper": "",
+    "isSnack": "true"
+  },
+  {
+    "id": 3,
+    "title": "cobb salad",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 148,
+      "carbs": 2.9,
+      "protein": 9.2,
+      "fats": 11
+    },
+    "isBreakfast": "true",
+    "isDinner": "true",
+    "isSupper": "true",
+    "isSnack": "true"
+  },
+  {
+    "id": 4,
+    "title": "oat meal",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 70.2,
+      "carbs": 12.1,
+      "protein": 2.5,
+      "fats": 1.5
+    },
+    "isBreakfast": "true",
+    "isDinner": "false",
+    "isSupper": "false",
+    "isSnack": "false"
+  },
+  {
+    "id": 5,
+    "title": "vegetarian chili",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 91,
+      "carbs": 13.6,
+      "protein": 4.3,
+      "fats": 2.6
+    },
+    "isBreakfast": "false",
+    "isDinner": "true",
+    "isSupper": "true",
+    "isSnack": "false"
+  },
+  {
+    "id": 6,
+    "title": "vegetarian tacos",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 195,
+      "carbs": 15,
+      "protein": 9.2,
+      "fats": 7.3
+    },
+    "isBreakfast": "false",
+    "isDinner": "true",
+    "isSupper": "true",
+    "isSnack": "true"
+  },
+  {
+    "id": 7,
+    "title": "lentil soup",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 56.4,
+      "carbs": 8.1,
+      "protein": 3.8,
+      "fats": 1.1
+    },
+    "isBreakfast": "false",
+    "isDinner": "true",
+    "isSupper": "true",
+    "isSnack": "false"
   }
 ]
-
-
