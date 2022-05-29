@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-export default function Search() {
-    const [calories, setCalories] = useState('')
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        console.log(calories)
-    }
+export default function Search(props) {
+  const [calories, setCalories] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    props.getCals(calories);
+    console.log(calories);
+  };
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -13,8 +14,13 @@ export default function Search() {
           Enter calorie count to get dishes that have equal or more calories
         </label>
         <br />
-        <input type="text" value={calories} placeholder="Calories" onChange={(e) => setCalories(e.target.value)} />
-        {calories}
+        <input
+          type="text"
+          value={calories}
+          placeholder="Calories"
+          onChange={(e) => setCalories(e.target.value)}
+        />
+        <button type="submit" onSubmit={handleSubmit}>Get food</button>
       </form>
     </div>
   );

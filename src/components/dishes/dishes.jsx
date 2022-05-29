@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from 'react';
 import Dish from "../dish/dish";
 import data from "../../data/data.json";
 import Search from "../search/Search";
 
 const Dishes = () => {
 
+const [getCalories, setGetCalories] = useState('')
+const getCals = (data) => {
+    setGetCalories(data)
+}
+
   return (
     <div>
-    <Search />
-
-      {data.map((item) => (
+    <Search getCals={getCals}/>
+    {getCalories > 0 ? 
+      (data.map((item) => (
         <Dish 
         serving={item.servingSize}
         title={item.title}
@@ -23,8 +28,9 @@ const Dishes = () => {
         supper={item.isSupper}
         snack={item.isSnack}
         />
-      ))}
-
+      )))
+      : console.log('no Calories set') 
+      }
     </div>
   );
 };
