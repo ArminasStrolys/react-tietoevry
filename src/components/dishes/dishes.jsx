@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Dish from "../dish/dish";
 import data from "../../data/data.json";
+import Search from "../search/Search";
 
 const Dishes = () => {
 
   return (
     <div>
+    <Search />
+
       {data.map((item) => (
         <Dish 
         serving={item.servingSize}
@@ -15,6 +18,10 @@ const Dishes = () => {
         fats={item.nutrition.fats}
         carbs={item.nutrition.carbs}
         protein={item.nutrition.protein}
+        breakfast={item.isBreakfast}
+        dinner={item.isDinner}
+        supper={item.isSupper}
+        snack={item.isSnack}
         />
       ))}
 
