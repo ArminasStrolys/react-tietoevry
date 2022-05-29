@@ -9,24 +9,24 @@
       "protein": 1.1,
       "fats": 0.3
     },
-    "isBreakfast": "",
-    "isDinner": "",
-    "isSupper": "",
+    "isBreakfast": "false",
+    "isDinner": "false",
+    "isSupper": "false",
     "isSnack": "true"
   },
   {
     "id": 2,
-    "title": "bread",
+    "title": "blue berries",
     "servingSize": 100,
     "nutrition": {
-      "calories": 261.6,
-      "carbs": 50.2,
-      "protein": 8.8,
-      "fats": 3.4
+      "calories": 58.5,
+      "carbs": 14.9,
+      "protein": 0.7,
+      "fats": 0
     },
-    "isBreakfast": "",
-    "isDinner": "",
-    "isSupper": "",
+    "isBreakfast": "false",
+    "isDinner": "false",
+    "isSupper": "false",
     "isSnack": "true"
   },
   {
