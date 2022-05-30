@@ -15,13 +15,14 @@ export default function Search(props) {
         </label>
         <br />
         <input
-          type="text"
+          type="number"
           value={calories}
           placeholder="Calories"
           onChange={(e) => setCalories(e.target.value)}
         />
         <button type="submit" onSubmit={handleSubmit}>Get food</button>
       </form>
+      <p>{props.calories}</p>
     </div>
   );
 }

@@ -13,24 +13,7 @@ const getCals = (data) => {
   return (
     <div>
     <Search getCals={getCals}/>
-    {getCalories > 0 ? 
-      (data.map((item) => (
-        <Dish 
-        serving={item.servingSize}
-        title={item.title}
-        key={item.id}
-        calories={item.nutrition.calories}
-        fats={item.nutrition.fats}
-        carbs={item.nutrition.carbs}
-        protein={item.nutrition.protein}
-        breakfast={item.isBreakfast}
-        dinner={item.isDinner}
-        supper={item.isSupper}
-        snack={item.isSnack}
-        />
-      )))
-      : console.log('no Calories set') 
-      }
+    { getCalories > 0 ? console.log('not null') : console.log('null') }
     </div>
   );
 };
