@@ -10,7 +10,7 @@ const Dishes = () => {
   return (
     <div>
       <Search getCals={getCals} />
-      {getCalories > 0 ? console.log("not null") : console.log("null")}
+      {getCalories > 0 ? console.log("null") : (<div>Enter calories</div>)}
     </div>
   );
 };
