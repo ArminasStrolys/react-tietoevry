@@ -20,7 +20,7 @@ export default function Search(props) {
           placeholder="Calories"
           onChange={(e) => setCalories(e.target.value)}
         />
-        <button type="submit" onSubmit={handleSubmit}>Get food</button>
+        <button type="submit" onSubmit={handleSubmit}>Generate</button>
       </form>
       <p>{props.calories}</p>
     </div>
