@@ -6,6 +6,7 @@ export default function PartyIdeas() {
   return (
     <div>
      <h2>Snack ideas for a party</h2>
+     {/* filtered from all dishes */}
       {data.map(
         (item) =>
           item.isSnack === true && (
