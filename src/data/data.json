@@ -9,10 +9,10 @@
       "protein": 1.1,
       "fats": 0.3
     },
-    "isBreakfast": "false",
-    "isDinner": "false",
-    "isSupper": "false",
-    "isSnack": "true"
+    "isBreakfast": false,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": true
   },
   {
     "id": 2,
@@ -24,10 +24,10 @@
       "protein": 0.7,
       "fats": 0
     },
-    "isBreakfast": "false",
-    "isDinner": "false",
-    "isSupper": "false",
-    "isSnack": "true"
+    "isBreakfast": false,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": true
   },
   {
     "id": 3,
@@ -39,10 +39,10 @@
       "protein": 9.2,
       "fats": 11
     },
-    "isBreakfast": "true",
-    "isDinner": "true",
-    "isSupper": "true",
-    "isSnack": "true"
+    "isBreakfast": true,
+    "isDinner": true,
+    "isSupper": true,
+    "isSnack": true
   },
   {
     "id": 4,
@@ -54,10 +54,10 @@
       "protein": 2.5,
       "fats": 1.5
     },
-    "isBreakfast": "true",
-    "isDinner": "false",
-    "isSupper": "false",
-    "isSnack": "false"
+    "isBreakfast": true,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": false
   },
   {
     "id": 5,
@@ -69,10 +69,10 @@
       "protein": 4.3,
       "fats": 2.6
     },
-    "isBreakfast": "false",
-    "isDinner": "true",
-    "isSupper": "true",
-    "isSnack": "false"
+    "isBreakfast": false,
+    "isDinner": true,
+    "isSupper": true,
+    "isSnack": false
   },
   {
     "id": 6,
@@ -85,9 +85,9 @@
       "fats": 7.3
     },
     "isBreakfast": "false",
-    "isDinner": "true",
-    "isSupper": "true",
-    "isSnack": "true"
+    "isDinner": true,
+    "isSupper": true,
+    "isSnack": true
   },
   {
     "id": 7,
@@ -99,9 +99,9 @@
       "protein": 3.8,
       "fats": 1.1
     },
-    "isBreakfast": "false",
-    "isDinner": "true",
-    "isSupper": "true",
-    "isSnack": "false"
+    "isBreakfast":  false,
+    "isDinner": true,
+    "isSupper": true,
+    "isSnack":  false
   }
 ]
