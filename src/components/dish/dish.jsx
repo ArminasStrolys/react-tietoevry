@@ -2,7 +2,7 @@ import React from "react";
 
 const Dish = (props) => {
   return (
-    <div>
+    <div className="food-card">
       <h2 className="capitalize">{props.title}</h2>
       <div className="info-card">
       <p>Serving portion: <b>{props.serving}g</b></p>
