@@ -9,7 +9,7 @@ export default function PartyIdeas() {
      {/* filtered from all dishes */}
       {data.map(
         (item) =>
-          item.isSnack === true && (
+          item.partyFood === true && (
             <Dish
               serving={item.servingSize}
               title={item.title}

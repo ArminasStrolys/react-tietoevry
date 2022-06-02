@@ -12,7 +12,8 @@
     "isBreakfast": false,
     "isDinner": false,
     "isSupper": false,
-    "isSnack": true
+    "isSnack": true,
+    "partyFood": false
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     "isBreakfast": false,
     "isDinner": false,
     "isSupper": false,
-    "isSnack": true
+    "isSnack": true,
+    "partyFood": false
   },
   {
     "id": 3,
@@ -39,10 +41,11 @@
       "protein": 9.2,
       "fats": 11
     },
-    "isBreakfast": true,
-    "isDinner": true,
+    "isBreakfast": false,
+    "isDinner": false,
     "isSupper": true,
-    "isSnack": true
+    "isSnack": false,
+    "partyFood": true
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
     "isBreakfast": true,
     "isDinner": false,
     "isSupper": false,
-    "isSnack": false
+    "isSnack": false,
+    "partyFood": false
   },
   {
     "id": 5,
@@ -71,8 +75,9 @@
     },
     "isBreakfast": false,
     "isDinner": true,
-    "isSupper": true,
-    "isSnack": false
+    "isSupper": false,
+    "isSnack": false,
+    "partyFood": true
   },
   {
     "id": 6,
@@ -84,10 +89,11 @@
       "protein": 9.2,
       "fats": 7.3
     },
-    "isBreakfast": "false",
-    "isDinner": true,
+    "isBreakfast": false,
+    "isDinner": false,
     "isSupper": true,
-    "isSnack": true
+    "isSnack": false,
+    "partyFood": true
   },
   {
     "id": 7,
@@ -99,9 +105,106 @@
       "protein": 3.8,
       "fats": 1.1
     },
-    "isBreakfast":  false,
+    "isBreakfast": false,
     "isDinner": true,
+    "isSupper": false,
+    "isSnack": false,
+    "partyFood": false
+  },
+  {
+    "id": 8,
+    "title": "cornbread",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 263.8,
+      "carbs": 43.2,
+      "protein": 6.7,
+      "fats": 7.2
+    },
+    "isBreakfast": true,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": false,
+    "partyFood": true
+  },
+  {
+    "id": 9,
+    "title": "kiwi",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 59.5,
+      "carbs": 14.9,
+      "protein": 1.1,
+      "fats": 0.5
+    },
+    "isBreakfast": false,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": true,
+    "partyFood": false
+  },
+  {
+    "id": 10,
+    "title": "orange",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 50.4,
+      "carbs": 12.4,
+      "protein": 0.9,
+      "fats": 0.1
+    },
+    "isBreakfast": false,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": true,
+    "partyFood": false
+  },
+  {
+    "id": 11,
+    "title": "lentil baked ziti",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 146.2,
+      "carbs": 22.9,
+      "protein": 10.1,
+      "fats": 4
+    },
+    "isBreakfast": true,
+    "isDinner": false,
+    "isSupper": false,
+    "isSnack": false,
+    "partyFood": true
+  },
+  {
+    "id": 12,
+    "title": "baked falafel stew",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 333.1,
+      "carbs": 32.1,
+      "protein": 13.3,
+      "fats": 17.6
+    },
+    "isBreakfast": false,
+    "isDinner": true,
+    "isSupper": false,
+    "isSnack": false,
+    "partyFood": false
+  },
+  {
+    "id": 13,
+    "title": "vegetable fried rice",
+    "servingSize": 100,
+    "nutrition": {
+      "calories": 163.7,
+      "carbs": 17.8,
+      "protein": 4.8,
+      "fats": 8.6
+    },
+    "isBreakfast": false,
+    "isDinner": false,
     "isSupper": true,
-    "isSnack":  false
+    "isSnack": false,
+    "partyFood": true
   }
 ]
