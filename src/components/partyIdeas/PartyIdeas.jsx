@@ -18,10 +18,7 @@ export default function PartyIdeas() {
               fats={item.nutrition.fats}
               carbs={item.nutrition.carbs}
               protein={item.nutrition.protein}
-              breakfast={item.isBreakfast}
-              dinner={item.isDinner}
-              supper={item.isSupper}
-              snack={item.isSnack}
+
             />
           )
       )}

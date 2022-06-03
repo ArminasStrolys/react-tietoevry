@@ -10,7 +10,11 @@ const Dish = (props) => {
       <p>Carbohydrates: <b>{props.carbs}g</b></p>
       <p>Fats: <b>{props.fats}g</b></p>
       <p>Protein: <b>{props.protein}g</b></p>
+
+      <p className="food-type">{props.breakfast === true ? <b>breakfast</b> : props.dinner === true ? <b>dinner</b> : props.supper === true ? <b>supper</b> : props.snack === true ? <b>snack</b> : ''}</p>
+
       </div>
+
     </div>
   );
 };

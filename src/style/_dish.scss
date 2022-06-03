@@ -1,17 +1,20 @@
 .food-card {
   width: 25%;
   display: inline-block;
-  // margin: 100px auto;
   .capitalize {
     text-transform: capitalize;
     text-align: center;
   }
   .info-card {
-    // display: none;
     border: 1px black solid;
     width: 200px;
     padding-left: 20px;
     line-height: 5px;
     margin: auto auto 100px auto;
+  }
+  .food-type{
+    color: red;
+    padding-top: 15px;
+    text-transform: capitalize;
   }
 }

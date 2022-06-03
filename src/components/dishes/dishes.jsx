@@ -24,10 +24,10 @@ const Dishes = () => {
                 fats={item.nutrition.fats}
                 carbs={item.nutrition.carbs}
                 protein={item.nutrition.protein}
-                breakfast={item.isBreakfast}
-                dinner={item.isDinner}
-                supper={item.isSupper}
-                snack={item.isSnack}
+                // breakfast={item.breakfast}
+                // dinner={item.dinner}
+                // supper={item.supper}
+                // snack={item.snack}
               />
             )
         )

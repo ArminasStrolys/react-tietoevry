@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Search from "../search/Search";
 import data from "../../data/data.json";
 import Dish from "../dish/dish";
 
@@ -9,6 +8,7 @@ export default function MonthlyPlan() {
   }
   const [visible, setVisible] = useState(false);
   const plan = [];
+  const lan = []
   const week = 7;
   for (let i = 1; i <= week; i++) {
     while (true) {
@@ -48,24 +48,36 @@ export default function MonthlyPlan() {
       }
     }
   }
-
+// lan.push(Object.entries(data)[1][1])
+// console.log(lan)
   console.log(plan);
 
-  const handleSmth = () => {
-    console.log("ttt");
-  };
+
+// for (let i = 1; i <= week; i++) {
+//   while (true) {
+//     let x = rndNum(0, data.length - 1);
+//     if (Object.values(data[x])[4] === true) {
+//       lan.push(Object.entries(data[x]));
+//       break;
+//     } else {
+//       continue;
+//     }
+//   }
+// }
+
 
   return (
     <div>
-      <Search />
-      Generate a meal plan for 1 week
       <br />
+      <form onSubmit={(e) => e.preventDefault()}>
       <button
         onClick={(e) =>
           visible === false ? setVisible(true) : setVisible(false)
         }>
         GEN
       </button>
+      </form>
+<div>Monday</div>
       <div className={visible === false ? "invisible" : "visible"}>
         {plan.map((item) => (
           <Dish
@@ -83,7 +95,7 @@ export default function MonthlyPlan() {
           />
         ))}
       </div>
-      <form onSubmit={(e) => e.preventDefault()}></form>
+
     </div>
   );
 }
