@@ -6,8 +6,7 @@ import Dishes from "../dishes/dishes";
 function App() {
   return (
     <div className="App">
-      <h1>Food for the people</h1>
-      <ul>
+      <ul className="nav-bar">
         <li>
           <a href="/">Home</a>
         </li>
@@ -18,7 +17,7 @@ function App() {
           <a href="/party-ideas">Party snack ideas</a>
         </li>
       </ul>
-
+      <h1>Food for the people</h1>
       <Router>
         <Routes>
           <Route path="/" element={<Dishes />} />

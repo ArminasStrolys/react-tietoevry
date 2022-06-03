@@ -8,7 +8,6 @@ export default function MonthlyPlan() {
   }
   const [visible, setVisible] = useState(false);
   const plan = [];
-  const lan = [];
   const week = 7;
   for (let i = 1; i <= week; i++) {
     while (true) {
@@ -48,21 +47,6 @@ export default function MonthlyPlan() {
       }
     }
   }
-  // lan.push(Object.entries(data)[1][1])
-  // console.log(lan)
-  console.log(plan);
-
-  // for (let i = 1; i <= week; i++) {
-  //   while (true) {
-  //     let x = rndNum(0, data.length - 1);
-  //     if (Object.values(data[x])[4] === true) {
-  //       lan.push(Object.entries(data[x]));
-  //       break;
-  //     } else {
-  //       continue;
-  //     }
-  //   }
-  // }
 
   return (
     <div>
