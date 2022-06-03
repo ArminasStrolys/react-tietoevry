@@ -1,7 +1,38 @@
-.visible{
-    display: block;
-    margin-left: 20%;
+.visible {
+  display: block;
+  margin-left: 20%;
+  position: relative;
 }
-.invisible{
-    display: none;
+.invisible {
+  display: none;
+}
+.mo,
+.tu,
+.we,
+.th,
+.fr,
+.sa,
+.su {
+  position: absolute;
+  font-size: 50px;
+  top: 118px;
+  left: -230px;
+}
+.tu {
+  top: 445px;
+}
+.we {
+  top: 770px;
+}
+.th {
+  top: 1100px;
+}
+.fr {
+  top: 1420px;
+}
+.sa {
+  top: 1745px;
+}
+.su {
+  top: 2075px;
 }

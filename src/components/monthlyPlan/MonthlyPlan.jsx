@@ -8,7 +8,7 @@ export default function MonthlyPlan() {
   }
   const [visible, setVisible] = useState(false);
   const plan = [];
-  const lan = []
+  const lan = [];
   const week = 7;
   for (let i = 1; i <= week; i++) {
     while (true) {
@@ -48,37 +48,43 @@ export default function MonthlyPlan() {
       }
     }
   }
-// lan.push(Object.entries(data)[1][1])
-// console.log(lan)
+  // lan.push(Object.entries(data)[1][1])
+  // console.log(lan)
   console.log(plan);
 
-
-// for (let i = 1; i <= week; i++) {
-//   while (true) {
-//     let x = rndNum(0, data.length - 1);
-//     if (Object.values(data[x])[4] === true) {
-//       lan.push(Object.entries(data[x]));
-//       break;
-//     } else {
-//       continue;
-//     }
-//   }
-// }
-
+  // for (let i = 1; i <= week; i++) {
+  //   while (true) {
+  //     let x = rndNum(0, data.length - 1);
+  //     if (Object.values(data[x])[4] === true) {
+  //       lan.push(Object.entries(data[x]));
+  //       break;
+  //     } else {
+  //       continue;
+  //     }
+  //   }
+  // }
 
   return (
     <div>
       <br />
       <form onSubmit={(e) => e.preventDefault()}>
-      <button
-        onClick={(e) =>
-          visible === false ? setVisible(true) : setVisible(false)
-        }>
-        GEN
-      </button>
+        <button
+          onClick={(e) =>
+            visible === false ? setVisible(true) : setVisible(false)
+          }
+        >
+          GEN
+        </button>
       </form>
-<div>Monday</div>
+
       <div className={visible === false ? "invisible" : "visible"}>
+        <div className="mo">Monday</div>
+        <div className="tu">Tuesday</div>
+        <div className="we">Wednesday</div>
+        <div className="th">Thursday</div>
+        <div className="fr">Friday</div>
+        <div className="sa">Saturday</div>
+        <div className="su">Sunday</div>
         {plan.map((item) => (
           <Dish
             serving={item[2]}
@@ -95,7 +101,6 @@ export default function MonthlyPlan() {
           />
         ))}
       </div>
-
     </div>
   );
 }
