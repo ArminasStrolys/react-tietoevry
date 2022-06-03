@@ -68,12 +68,12 @@ export default function MonthlyPlan() {
     <div>
       <br />
       <form onSubmit={(e) => e.preventDefault()}>
-        <button
+        <button className="plan-gen-btn"
           onClick={(e) =>
             visible === false ? setVisible(true) : setVisible(false)
           }
         >
-          GEN
+          Generate plan
         </button>
       </form>
 
