@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Search from "../search/Search";
 import data from "../../data/data.json";
 import Dish from "../dish/dish";
@@ -7,7 +7,7 @@ export default function MonthlyPlan() {
   function rndNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-
+  const [visible, setVisible] = useState(false);
   const plan = [];
   const week = 7;
   for (let i = 1; i <= week; i++) {
@@ -52,35 +52,38 @@ export default function MonthlyPlan() {
   console.log(plan);
 
   const handleSmth = () => {
-console.log('ttt')
-  }
+    console.log("ttt");
+  };
 
   return (
     <div>
       <Search />
       Generate a meal plan for 1 week
-      <div>{plan.map((item) =>
-              <Dish
-                serving={item[2]}
-                title={item[1]}
-                key={item[0]}
-                calories={item[3].calories}
-                fats={item[3].fats}
-                carbs={item[3].carbs}
-                protein={item[3].protein}
-                breakfast={item[4]}
-                dinner={item[5]}
-                supper={item[6]}
-                snack={item[7]}
-              />
-            )
-       }</div>
-      <form onSubmit={(e) => e.preventDefault()}>
-        <button
-          onClick={handleSmth}>
-          GEN
-        </button>
-      </form>
+      <br />
+      <button
+        onClick={(e) =>
+          visible === false ? setVisible(true) : setVisible(false)
+        }>
+        GEN
+      </button>
+      <div className={visible === false ? "invisible" : "visible"}>
+        {plan.map((item) => (
+          <Dish
+            serving={item[2]}
+            title={item[1]}
+            // key={item[0]}
+            calories={item[3].calories}
+            fats={item[3].fats}
+            carbs={item[3].carbs}
+            protein={item[3].protein}
+            breakfast={item[4]}
+            dinner={item[5]}
+            supper={item[6]}
+            snack={item[7]}
+          />
+        ))}
+      </div>
+      <form onSubmit={(e) => e.preventDefault()}></form>
     </div>
   );
 }
