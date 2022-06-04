@@ -5,8 +5,8 @@ import Dish from "../dish/dish";
 export default function PartyIdeas() {
   return (
     <div>
-     <h2>Snack ideas for a party</h2>
-     {/* filtered from all dishes */}
+      <h1 className="party-title">Snack ideas for a party</h1>
+      {/* filtered from all dishes */}
       {data.map(
         (item) =>
           item.partyFood === true && (
@@ -18,7 +18,6 @@ export default function PartyIdeas() {
               fats={item.nutrition.fats}
               carbs={item.nutrition.carbs}
               protein={item.nutrition.protein}
-
             />
           )
       )}

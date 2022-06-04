@@ -1,21 +1,25 @@
-body{
-    background-color: rgb(196, 124, 124);
+h1 {
+  text-align: center;
+  margin: 30px 0;
 }
-h1{
-     text-align: center;
+.nav-bar {
+  margin: -10px;
+  background-color: rgb(235, 223, 209);
 }
-.nav-bar li{
-    display: inline-block;
-    width: 33%;
-    text-align: center;
-    a{
-        text-decoration: none;
-        color: black;
-        border: 1px black solid;
-        padding: 10px;
-        transition: 0.3s;
-    }
-    a:hover{
-        background-color: aquamarine;
-    }
+.nav-bar li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  height: 60px;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    color: black;
+    border: 1px rgb(131, 131, 131) solid;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  a:hover {
+    background-color: $hover1;
+  }
 }

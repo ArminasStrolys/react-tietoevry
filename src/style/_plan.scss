@@ -77,3 +77,67 @@
 .su {
   top: 2075px;
 }
+@media screen and (max-width: 1200px) {
+  .mo,
+  .tu,
+  .we,
+  .th,
+  .fr,
+  .sa,
+  .su {
+    position: absolute;
+    font-size: 30px;
+    top: 118px;
+    left: -100px;
+}
+.tu {
+  top: 770px;
+}
+.we {
+  top: 1420px;
+}
+.th {
+  top: 2075px;
+}
+.fr {
+  top: 2735px;
+}
+.sa {
+  top: 3390px;
+}
+.su {
+  top: 4045px;
+}
+}
+@media screen and (max-width: 600px) {
+  .mo,
+  .tu,
+  .we,
+  .th,
+  .fr,
+  .sa,
+  .su {
+    position: absolute;
+    font-size: 20px;
+    top: 118px;
+    left: -50px;
+}
+.tu {
+  top: 1420px;
+}
+.we {
+  top: 2735px;
+}
+.th {
+  top: 4045px;
+}
+.fr {
+  top: 5355px;
+}
+.sa {
+  top: 6670px;
+}
+.su {
+  top: 7980px;
+}
+}

@@ -19,3 +19,17 @@
     text-transform: capitalize;
   }
 }
+.party-title{
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .food-card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .food-card {
+    width: 100%;
+  }
+}

@@ -32,7 +32,7 @@ const Dishes = () => {
             )
         )
       ) : (
-        <div>Enter calories</div>
+        <div></div>
       )}
     </div>
   );

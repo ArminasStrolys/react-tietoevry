@@ -50,9 +50,11 @@ export default function MonthlyPlan() {
 
   return (
     <div>
+      <h1>Vegetarian is the new black!</h1>
       <br />
       <form onSubmit={(e) => e.preventDefault()}>
-        <button className="plan-gen-btn"
+        <button
+          className="plan-gen-btn"
           onClick={(e) =>
             visible === false ? setVisible(true) : setVisible(false)
           }

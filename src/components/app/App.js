@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import MonthlyPlan from "../monthlyPlan/MonthlyPlan";
+import MealPlan from "../mealPlan/MealPlan";
 import PartyIdeas from "../partyIdeas/PartyIdeas";
 import Dishes from "../dishes/dishes";
 
@@ -17,11 +17,11 @@ function App() {
           <a href="/party-ideas">Party snack ideas</a>
         </li>
       </ul>
-      <h1>Food for the people</h1>
+
       <Router>
         <Routes>
           <Route path="/" element={<Dishes />} />
-          <Route path="/monthly-plan" element={<MonthlyPlan />} />
+          <Route path="/monthly-plan" element={<MealPlan />} />
           <Route path="/party-ideas" element={<PartyIdeas />} />
         </Routes>
       </Router>

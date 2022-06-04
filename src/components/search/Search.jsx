@@ -8,9 +8,9 @@ export default function Search(props) {
     console.log(calories);
   };
   return (
-    <div>
+    <div className="search">
       <form onSubmit={handleSubmit}>
-        <label>
+        <label className="search-label">
           Enter calorie count to get dishes that have equal or more calories
         </label>
         <br />
